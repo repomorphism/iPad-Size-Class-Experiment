@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DA3759DA1BF24D1F00AD9291 /* EmbeddingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA3759D91BF24D1F00AD9291 /* EmbeddingViewController.m */; };
 		DAF723DD1BF228C200AE5075 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DAF723DC1BF228C200AE5075 /* main.m */; };
 		DAF723E01BF228C200AE5075 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DAF723DF1BF228C200AE5075 /* AppDelegate.m */; };
 		DAF723E31BF228C200AE5075 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DAF723E21BF228C200AE5075 /* ViewController.m */; };
@@ -16,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DA3759D81BF24D1F00AD9291 /* EmbeddingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmbeddingViewController.h; sourceTree = "<group>"; };
+		DA3759D91BF24D1F00AD9291 /* EmbeddingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmbeddingViewController.m; sourceTree = "<group>"; };
 		DAF723D81BF228C200AE5075 /* SizeClassTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SizeClassTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DAF723DC1BF228C200AE5075 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		DAF723DE1BF228C200AE5075 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -62,6 +65,8 @@
 				DAF723DF1BF228C200AE5075 /* AppDelegate.m */,
 				DAF723E11BF228C200AE5075 /* ViewController.h */,
 				DAF723E21BF228C200AE5075 /* ViewController.m */,
+				DA3759D81BF24D1F00AD9291 /* EmbeddingViewController.h */,
+				DA3759D91BF24D1F00AD9291 /* EmbeddingViewController.m */,
 				DAF723E41BF228C200AE5075 /* Main.storyboard */,
 				DAF723E71BF228C200AE5075 /* Assets.xcassets */,
 				DAF723E91BF228C200AE5075 /* LaunchScreen.storyboard */,
@@ -151,6 +156,7 @@
 			files = (
 				DAF723E31BF228C200AE5075 /* ViewController.m in Sources */,
 				DAF723E01BF228C200AE5075 /* AppDelegate.m in Sources */,
+				DA3759DA1BF24D1F00AD9291 /* EmbeddingViewController.m in Sources */,
 				DAF723DD1BF228C200AE5075 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -265,6 +271,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = net.mathemusician.SizeClassTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
 		};
@@ -276,6 +283,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = net.mathemusician.SizeClassTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Release;
 		};
@@ -298,6 +306,7 @@
 				DAF723F11BF228C200AE5075 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

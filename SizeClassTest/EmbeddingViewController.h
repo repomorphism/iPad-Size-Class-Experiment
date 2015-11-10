@@ -1,15 +1,13 @@
 //
-//  ViewController.m
+//  EmbeddingViewController.h
 //  SizeClassTest
 //
-//  Created by Paul on 11/10/15.
+//  Created by Paul on 11/11/15.
 //  Copyright © 2015 Mathemusician.net. All rights reserved.
 //
 
 #import "ViewController.h"
 
-
-@implementation ViewController
+@interface EmbeddingViewController : ViewController
 
 @end
-
